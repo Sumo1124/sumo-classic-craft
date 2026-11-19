@@ -1,0 +1,32 @@
+{
+  "name": "sumo-classic-craft",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Sumo Classic Craft: play Guardian Match in World of CarrickCraft, earn SUMO, and collect original NFT guardians on Sepolia.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env tools/start-local.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "compile": "node app/tools/compile-contracts.mjs",
+    "deploy:sepolia": "node --env-file-if-exists=.env app/tools/deploy-sepolia.mjs",
+    "metadata": "node --env-file-if-exists=.env app/tools/generate-metadata.mjs",
+    "upload:pinata": "node --env-file-if-exists=.env app/tools/upload-pinata.mjs",
+    "web3:preflight": "node --env-file-if-exists=.env app/tools/preflight.mjs",
+    "check:ts": "tsc --noEmit",
+    "test": "npm run compile && node --test app/test/*.test.mjs app/chain-test/*.test.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "viem": "2.55.2"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "solc": "0.8.30",
+    "typescript": "^5.9.3",
+    "vite": "8.1.6"
+  }
+}

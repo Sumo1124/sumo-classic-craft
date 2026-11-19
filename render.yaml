@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: sumo-classic-craft
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /livez
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: SUMO_SEPOLIA_RPC_URL
+        sync: false
+      - key: SUMO_COIN_ADDRESS
+        sync: false
+      - key: SUMO_COLLECTION_ADDRESS
+        sync: false
+      - key: SUMO_CLAIM_SIGNER_KEY
+        sync: false

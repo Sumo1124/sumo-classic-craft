@@ -1,0 +1,95 @@
+{
+  "name": "Sumo Classic Craft: World of CarrickCraft",
+  "description": "Eight original carved sumo guardians from World of CarrickCraft, the genesis NFT collection of Sumo Classic Craft. Each artwork represents a distinct realm and is prepared for permanent storage on IPFS through Pinata.",
+  "imageRoot": "public",
+  "items": [
+    {
+      "id": 1,
+      "name": "Carrick Vale",
+      "description": "The first guardian watches over emerald terraces and the dawn dohyo where every CarrickCraft journey begins.",
+      "image": "nft/carrick-vale.jpg",
+      "traits": [
+        { "trait_type": "Realm", "value": "Carrick Vale" },
+        { "trait_type": "Guardian", "value": "The First Keeper" },
+        { "trait_type": "Rarity", "value": "Common" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Whispering Marsh",
+      "description": "A silent wooden sentinel stands among lantern-lit reeds, moonlit water, and the marsh's oldest secrets.",
+      "image": "nft/whispering-marsh.jpg",
+      "traits": [
+        { "trait_type": "Realm", "value": "Whispering Marsh" },
+        { "trait_type": "Guardian", "value": "The Lantern Listener" },
+        { "trait_type": "Rarity", "value": "Uncommon" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Emberpeak",
+      "description": "Stone armor and molten veins define the formidable guardian of CarrickCraft's volcanic summit.",
+      "image": "nft/emberpeak.jpg",
+      "traits": [
+        { "trait_type": "Realm", "value": "Emberpeak" },
+        { "trait_type": "Guardian", "value": "The Last Flame" },
+        { "trait_type": "Rarity", "value": "Rare" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Far Rift",
+      "description": "Beyond the floating obsidian shards, a celestial keeper holds the boundary between the holds and the void.",
+      "image": "nft/far-rift.jpg",
+      "traits": [
+        { "trait_type": "Realm", "value": "Far Rift" },
+        { "trait_type": "Guardian", "value": "The Void Walker" },
+        { "trait_type": "Rarity", "value": "Legendary" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Goldcrest Harbor",
+      "description": "The harbor keeper welcomes every sail beneath copper lanterns and the warm light of a golden sunset.",
+      "image": "nft/goldcrest-harbor.jpg",
+      "traits": [
+        { "trait_type": "Realm", "value": "Goldcrest Harbor" },
+        { "trait_type": "Guardian", "value": "The Tide Host" },
+        { "trait_type": "Rarity", "value": "Rare" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Atlas of Nine Holds",
+      "description": "A wise cartographer tends the floating atlas and preserves the stories connecting all nine CarrickCraft holds.",
+      "image": "nft/atlas-of-nine-holds.jpg",
+      "traits": [
+        { "trait_type": "Realm", "value": "Nine Holds" },
+        { "trait_type": "Guardian", "value": "The Atlas Keeper" },
+        { "trait_type": "Rarity", "value": "Uncommon" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Frostveil",
+      "description": "Crystalline armor and a quiet resolve protect the frozen forests and waterfalls of the northern reach.",
+      "image": "nft/frostveil.jpg",
+      "traits": [
+        { "trait_type": "Realm", "value": "Frostveil" },
+        { "trait_type": "Guardian", "value": "The Winter Sentinel" },
+        { "trait_type": "Rarity", "value": "Rare" }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Palmreach",
+      "description": "A joyful guardian welcomes travelers to a tropical sanctuary of bright flowers, waterfalls, and turquoise water.",
+      "image": "nft/palmreach.jpg",
+      "traits": [
+        { "trait_type": "Realm", "value": "Palmreach" },
+        { "trait_type": "Guardian", "value": "The Sun Celebrant" },
+        { "trait_type": "Rarity", "value": "Uncommon" }
+      ]
+    }
+  ]
+}

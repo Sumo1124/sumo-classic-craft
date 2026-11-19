@@ -1,0 +1,8 @@
+node_modules/
+dist/
+artifacts/
+app/dist/
+.env
+app/data/claims.local.json
+app/data/game.local.json
+app/deployment/sepolia.json
